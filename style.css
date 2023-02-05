@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  text-decoration: none;
+  direction: rtl;
+}
+.carousel {
+    max-width: 777px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .accordion-button::after{
+    position: absolute;
+    left: 50px;
+}
+.phone{
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+  }
